@@ -5,7 +5,7 @@ import ImageList from "./ImageList";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="ui container">
         <SearchBar />
       </div>
     );
