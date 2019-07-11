@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import ImageList from "./ImageList";
+import SearchBar from "./SearchBar";
 
 class App extends Component {
   render() {
