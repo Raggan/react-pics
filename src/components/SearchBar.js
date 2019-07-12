@@ -6,9 +6,9 @@ class SearchBar extends Component {
     return (
       <div className="ui segment">
         <form className="ui form">
-          <div className="ui icon input">
-            <input type="text" placeholder="Image Search..." />
-            <i className="inverted circular search link icon" />
+          <div className="field">
+            <label>Image Search</label>
+            <input type="text" />
           </div>
         </form>
       </div>
